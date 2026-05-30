@@ -1,18 +1,28 @@
 # 🏥 Totem Clínica UBS
 
-Sistema de emissão de senhas desenvolvido com HTML, CSS e JavaScript.
+Sistema de emissão de senhas desenvolvido com HTML, CSS e JavaScript, simulando o funcionamento de um totem de atendimento utilizado em clínicas e unidades básicas de saúde (UBS).
 
 ## 📸 Preview
 
-![Preview do Projeto](./src/assets/preview.png)
+![Preview do Projeto](./src/img/preview.png)
 
 ## 🚀 Funcionalidades
 
-* Geração automática de senhas
-* Controle por setor de atendimento
-* Data e hora da emissão
+* Emissão automática de senhas
+* Controle de senhas por setor
+* Atendimento para:
+
+  * Dentista
+  * Enfermeiro(a)
+  * Farmácia
+  * Médico(a)
+  * Vacinas
+* Exibição da senha gerada
+* Exibição da data de emissão
+* Exibição do horário de emissão
 * Interface responsiva
-* Exibição do comprovante na tela
+
+---
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -21,31 +31,116 @@ Sistema de emissão de senhas desenvolvido com HTML, CSS e JavaScript.
 * JavaScript
 * DOM
 * Date API
+* Template Strings
+
+---
 
 ## 📚 Conceitos Praticados
 
-* Manipulação do DOM
-* Funções JavaScript
+### JavaScript
+
+* Variáveis
 * Objetos
-* Template Strings
-* Responsividade
-* Formatação de Data e Hora
+* Funções
+* Manipulação do DOM
 * Eventos
+* Template Strings
+* Date API
+* Formatação de Strings
+* PadStart()
 
-## 🎯 Objetivo
+### CSS
 
-Projeto desenvolvido para praticar conceitos fundamentais de JavaScript e simular um sistema real de emissão de senhas utilizado em clínicas e unidades de saúde.
+* Flexbox
+* Responsividade
+* Media Queries
+* Hover Effects
+
+### HTML
+
+* Estrutura Semântica
+* Botões
+* Divs
+* Organização de Conteúdo
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de JavaScript através da construção de um sistema realista de emissão de senhas para clínicas e unidades de saúde.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+sistema-senhas-clinica
+
+├── index.html
+
+└── src
+    ├── css
+    │   ├── reset.css
+    │   ├── estilos.css
+    │   └── responsivo.css
+    │
+    ├── js
+    │   └── index.js
+    │
+    └── img
+        └── preview.png
+```
+
+---
 
 ## 🔮 Próximas Implementações
 
-* Impressão de senhas
-* LocalStorage
-* Histórico de atendimentos
-* Painel de chamadas
-* Backend com Node.js
+* [ ] Comprovante de atendimento
+* [ ] Impressão automática da senha
+* [ ] LocalStorage
+* [ ] Histórico de senhas
+* [ ] Painel de chamadas
+* [ ] Deploy no Vercel
+* [ ] Backend com Node.js
+* [ ] Banco de dados
+
+---
+
+## 💻 Como Executar
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/maycon-douglasd/sistema-senhas-clinica.git
+```
+
+2. Acesse a pasta
+
+```bash
+cd sistema-senhas-clinica
+```
+
+3. Abra o arquivo
+
+```text
+index.html
+```
+
+em seu navegador.
+
+---
 
 ## 👨‍💻 Autor
 
 Maycon Douglas
 
-GitHub: https://github.com/maycon-douglasd
+📧 [maycon_douglasds@hotmail.com](mailto:maycon_douglasds@hotmail.com)
+
+
+---
+
+⭐ Caso tenha gostado do projeto, deixe uma estrela no repositório.
+
+
+
+
