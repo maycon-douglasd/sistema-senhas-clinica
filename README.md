@@ -135,12 +135,3 @@ em seu navegador.
 Maycon Douglas
 
 📧 [maycon_douglasds@hotmail.com](mailto:maycon_douglasds@hotmail.com)
-
-
----
-
-⭐ Caso tenha gostado do projeto, deixe uma estrela no repositório.
-
-
-
-
