@@ -4,9 +4,9 @@ Sistema web desenvolvido para gerenciamento de filas de atendimento em Clínicas
 
 ## 📋 Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de simular um sistema real de gerenciamento de filas utilizado em unidades de saúde.
+O objetivo deste projeto é simular um sistema real de gerenciamento de filas utilizado em clínicas e unidades de saúde.
 
-O sistema permite a emissão de senhas para diferentes setores, controle de senhas preferenciais, impressão de comprovantes e persistência dos dados mesmo após o fechamento ou atualização da página.
+O sistema permite gerar senhas para diferentes setores, emitir senhas preferenciais, imprimir comprovantes e manter os contadores salvos mesmo após atualizar ou fechar a página.
 
 ## 🚀 Funcionalidades
 
@@ -15,11 +15,11 @@ O sistema permite a emissão de senhas para diferentes setores, controle de senh
 * ✅ Controle por setor de atendimento
 * ✅ Impressão de comprovantes
 * ✅ Persistência de dados com Local Storage
-* ✅ Continuidade da numeração após atualização da página
+* ✅ Continuidade da numeração após atualizar a página
 * ✅ Reinicialização automática dos contadores diariamente
-* ✅ Interface responsiva para desktop, tablet e smartphone
+* ✅ Interface responsiva para desktop e dispositivos móveis
 
-### Setores Disponíveis
+## 🏥 Setores Disponíveis
 
 * 🦷 Dentista (DEN)
 * 👩‍⚕️ Enfermagem (ENF)
@@ -31,27 +31,25 @@ O sistema permite a emissão de senhas para diferentes setores, controle de senh
 
 ### Tela Inicial
 
-![Tela Inicial](images/preview)
+![Tela Inicial](emissordesenhas)
 
-### Seleção de Senha
+### Seleção de Atendimento
 
-![Seleção de Senha](images/tela-setor.png)
+![Seleção de Atendimento](preview.png)
 
-### Comprovante Gerado
+### Senha Gerada
 
-![Comprovante](images/comprovante.png)
+![Senha Gerada](senhas.png)
 
-### Versão Mobile
+### Comprovante para Impressão
 
-![Versão Mobile](images/mobile.png)
-
-> Substitua os nomes das imagens pelos arquivos reais que você adicionar na pasta `images`.
+![Comprovante](comprovante.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
 * HTML5
 * CSS3
-* JavaScript (Vanilla JS)
+* JavaScript
 * Local Storage
 * Git
 * GitHub
@@ -98,10 +96,10 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 
 ## 👨‍💻 Autor
 
-Maycon Douglas
+**Maycon Douglas**
 
 📧 [maycon_douglasds@hotmail.com](mailto:maycon_douglasds@hotmail.com)
 
-💼 GitHub: https://github.com/maycon-douglasd
+🔗 GitHub: https://github.com/maycon-douglasd
 
 🚀 Desenvolvedor Front-end em transição de carreira, focado em JavaScript, React e Node.js.
