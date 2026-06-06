@@ -1,137 +1,107 @@
-# 🏥 Totem Clínica UBS
+# 🏥 Sistema de Senhas para Clínica / UBS
 
-Sistema de emissão de senhas desenvolvido com HTML, CSS e JavaScript, simulando o funcionamento de um totem de atendimento utilizado em clínicas e unidades básicas de saúde (UBS).
+Sistema web desenvolvido para gerenciamento de filas de atendimento em Clínicas e Unidades Básicas de Saúde (UBS), permitindo a emissão de senhas normais e preferenciais por setor de atendimento.
 
-## 📸 Preview
+## 📋 Sobre o Projeto
 
-![Preview do Projeto](./src/img/preview.png)
+Este projeto foi desenvolvido com o objetivo de simular um sistema real de gerenciamento de filas utilizado em unidades de saúde.
+
+O sistema permite a emissão de senhas para diferentes setores, controle de senhas preferenciais, impressão de comprovantes e persistência dos dados mesmo após o fechamento ou atualização da página.
 
 ## 🚀 Funcionalidades
 
-* Emissão automática de senhas
-* Controle de senhas por setor
-* Atendimento para:
+* ✅ Emissão de senhas normais
+* ✅ Emissão de senhas preferenciais
+* ✅ Controle por setor de atendimento
+* ✅ Impressão de comprovantes
+* ✅ Persistência de dados com Local Storage
+* ✅ Continuidade da numeração após atualização da página
+* ✅ Reinicialização automática dos contadores diariamente
+* ✅ Interface responsiva para desktop, tablet e smartphone
 
-  * Dentista
-  * Enfermeiro(a)
-  * Farmácia
-  * Médico(a)
-  * Vacinas
-* Exibição da senha gerada
-* Exibição da data de emissão
-* Exibição do horário de emissão
-* Interface responsiva
+### Setores Disponíveis
 
----
+* 🦷 Dentista (DEN)
+* 👩‍⚕️ Enfermagem (ENF)
+* 💊 Farmácia (FAR)
+* 🩺 Médico (MED)
+* 💉 Vacinação (VAC)
 
-## 🛠 Tecnologias Utilizadas
+## 📸 Demonstração
+
+### Tela Inicial
+
+![Tela Inicial](images/preview)
+
+### Seleção de Senha
+
+![Seleção de Senha](images/tela-setor.png)
+
+### Comprovante Gerado
+
+![Comprovante](images/comprovante.png)
+
+### Versão Mobile
+
+![Versão Mobile](images/mobile.png)
+
+> Substitua os nomes das imagens pelos arquivos reais que você adicionar na pasta `images`.
+
+## 🛠️ Tecnologias Utilizadas
 
 * HTML5
 * CSS3
-* JavaScript
-* DOM
-* Date API
-* Template Strings
-
----
-
-## 📚 Conceitos Praticados
-
-### JavaScript
-
-* Variáveis
-* Objetos
-* Funções
-* Manipulação do DOM
-* Eventos
-* Template Strings
-* Date API
-* Formatação de Strings
-* PadStart()
-
-### CSS
-
-* Flexbox
-* Responsividade
-* Media Queries
-* Hover Effects
-
-### HTML
-
-* Estrutura Semântica
-* Botões
-* Divs
-* Organização de Conteúdo
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de JavaScript através da construção de um sistema realista de emissão de senhas para clínicas e unidades de saúde.
-
----
+* JavaScript (Vanilla JS)
+* Local Storage
+* Git
+* GitHub
 
 ## 📂 Estrutura do Projeto
 
 ```text
-sistema-senhas-clinica
-
-├── index.html
-
-└── src
-    ├── css
-    │   ├── reset.css
-    │   ├── estilos.css
-    │   └── responsivo.css
-    │
-    ├── js
-    │   └── index.js
-    │
-    └── img
-        └── preview.png
+src/
+├── css/
+│   ├── style.css
+│   ├── responsivo.css
+│   └── print.css
+│
+├── js/
+│   └── index.js
+│
+└── img/
 ```
 
----
+## 💡 Conceitos Aplicados
 
-## 🔮 Próximas Implementações
+Durante o desenvolvimento deste projeto foram praticados conceitos importantes de desenvolvimento Front-end:
 
-* [ ] Comprovante de atendimento
-* [ ] Impressão automática da senha
-* [ ] LocalStorage
-* [ ] Histórico de senhas
-* [ ] Painel de chamadas
-* [ ] Deploy no Vercel
-* [ ] Backend com Node.js
-* [ ] Banco de dados
+* Manipulação do DOM
+* Organização de funções JavaScript
+* Objetos e propriedades
+* Persistência de dados
+* JSON.stringify()
+* JSON.parse()
+* Local Storage
+* Responsividade
+* Controle de estado da aplicação
+* Impressão via navegador
 
----
+## 🔄 Próximas Implementações
 
-## 💻 Como Executar
-
-1. Clone o repositório
-
-```bash
-git clone https://github.com/maycon-douglasd/sistema-senhas-clinica.git
-```
-
-2. Acesse a pasta
-
-```bash
-cd sistema-senhas-clinica
-```
-
-3. Abra o arquivo
-
-```text
-index.html
-```
-
-em seu navegador.
-
----
+* 📊 Dashboard administrativo
+* 📜 Histórico de senhas emitidas
+* 🔐 Área administrativa protegida por senha
+* 📢 Painel de chamada de senhas
+* 🔊 Som de chamada
+* 🌐 Backend com Node.js
+* 🗄️ Banco de dados
 
 ## 👨‍💻 Autor
 
 Maycon Douglas
 
 📧 [maycon_douglasds@hotmail.com](mailto:maycon_douglasds@hotmail.com)
+
+💼 GitHub: https://github.com/maycon-douglasd
+
+🚀 Desenvolvedor Front-end em transição de carreira, focado em JavaScript, React e Node.js.
