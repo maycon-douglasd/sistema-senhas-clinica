@@ -21,11 +21,11 @@ O sistema permite gerar senhas para diferentes setores, emitir senhas preferenci
 
 ## 🏥 Setores Disponíveis
 
-* 🦷 Dentista (DEN)
-* 👩‍⚕️ Enfermagem (ENF)
-* 💊 Farmácia (FAR)
-* 🩺 Médico (MED)
-* 💉 Vacinação (VAC)
+*  Dentista (DEN)
+*  Enfermagem (ENF)
+*  Farmácia (FAR)
+*  Médico (MED)
+*  Vacinação (VAC)
 
 ## 📸 Demonstração
 
