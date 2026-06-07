@@ -31,19 +31,27 @@ O sistema permite gerar senhas para diferentes setores, emitir senhas preferenci
 
 ### Tela Inicial
 
-![Tela Inicial](emissordesenhas)
+<p>
+  <img src="src/img/preview.png" width="600">
+</p>
 
 ### Seleção de Atendimento
 
-![Seleção de Atendimento](preview.png)
+<p>
+  <img src="src/img/emissordesenhas.png" width="390">
+</p>
 
 ### Senha Gerada
 
-![Senha Gerada](senhas.png)
+<p>
+  <img src="src/img/senhas.png" width="390">
+</p>
 
 ### Comprovante para Impressão
 
-![Comprovante](comprovante.png)
+<p>
+  <img src="src/img/comprovante.png" width="250">
+</p>
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -93,13 +101,3 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 * 🔊 Som de chamada
 * 🌐 Backend com Node.js
 * 🗄️ Banco de dados
-
-## 👨‍💻 Autor
-
-**Maycon Douglas**
-
-📧 [maycon_douglasds@hotmail.com](mailto:maycon_douglasds@hotmail.com)
-
-🔗 GitHub: https://github.com/maycon-douglasd
-
-🚀 Desenvolvedor Front-end em transição de carreira, focado em JavaScript, React e Node.js.
