@@ -1,0 +1,38 @@
+#senhaAtual {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 30px 0;
+    color: var(--cor-senha);
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#mensagemSistema {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--cor-erro);
+}
+
+#nomePaciente {
+    width: 320px;
+    padding: 12px 15px;
+    margin-top: var(--espacamento-medio);
+    margin-bottom: var(--espacamento-grande);
+
+    font-size: var(--fonte-texto);
+
+    border: 2px solid var(--cor-borda);
+    border-radius: var(--radius-button);
+
+    outline: none;
+
+    transition: border-color .3s;
+}
+
+#nomePaciente:focus {
+    border-color: var(--cor-primaria);
+}

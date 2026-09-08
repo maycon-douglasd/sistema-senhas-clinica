@@ -3,5 +3,5 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fonte-principal);
 }

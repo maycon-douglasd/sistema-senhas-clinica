@@ -1,0 +1,59 @@
+/* ==========================
+   LAYOUT GERAL
+========================== */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    padding: var(--padding-container);
+    background: var(--cor-branca);
+    text-align: center;
+    border-radius: var(--radius-container);
+    box-shadow: var(--sombra-container);
+}
+
+/* ==========================
+   TIPOGRAFIA
+========================== */
+
+h1 {
+    font-size: var(--fonte-h1);
+    margin-bottom: 15px;
+    color: var(--cor-titulo);
+}
+
+p {
+    font-size: var(--fonte-texto);
+    font-weight: bold;
+    color: var(--cor-texto);
+}
+
+/* ==========================
+   BOTÕES
+========================== */
+
+button {
+    width: 220px;
+    padding: 15px;
+    font-size: var(--fonte-botao);
+    border: none;
+    border-radius: var(--radius-button);
+    background: var(--cor-primaria);
+    color: var(--cor-branca);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:active {
+    background: var(--cor-primaria-hover);
+}

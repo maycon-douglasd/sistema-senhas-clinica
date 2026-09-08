@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="./src/img/favicon.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/design-system.css">
+
+    <link rel="stylesheet" href="./src/css/layout.css">
+
+    <link rel="stylesheet" href="./src/css/recepcao.css">
+
+    <title>Painel da Recepção</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>🏥 Painel da Recepção</h1>
+
+        <p>Última senha chamada</p>
+
+        <div id="senhaAtual">
+            Nenhuma senha chamada
+        </div>
+
+        <input type="text" id="nomePaciente" placeholder="Digite o nome do paciente" autocomplete="off">
+
+        <div class="container-botoes">
+            <button onclick="chamarProximaSenha()">
+                Chamar próxima senha
+            </button>
+
+            <button onclick="finalizarCadastroRecepcao()">
+                Finalizar cadastro
+            </button>
+        </div>
+
+
+        <div id="mensagemSistema"></div>
+    </section>
+
+    <script src="./src/js/status.js"></script>
+    <script src="./src/js/sistema.js"></script>
+    <script src="./src/js/recepcao.js"></script>
+
+</body>
+
+</html>

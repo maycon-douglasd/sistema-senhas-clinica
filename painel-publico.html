@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="./src/img/favicon.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/design-system.css">
+
+    <link rel="stylesheet" href="./src/css/painel-publico.css">
+
+    <title>Painel Público</title>
+
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header id="header">
+
+        <div id="headerLeft">
+
+            <h1 id="nomeUbs">
+
+                UBS JOSÉ ALVES DA COSTA
+
+            </h1>
+
+        </div>
+
+        <div id="headerRight">
+
+            <span id="dataAtual"></span>
+
+            <span id="horaAtual"></span>
+
+        </div>
+
+    </header>
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main id="main">
+
+        <!-- ============================================
+             PAINEL ESQUERDO
+        ============================================= -->
+
+        <section id="leftPanel">
+
+            <div id="currentCallCard">
+
+                <h2 id="currentCallTitle">
+
+                    SENHA ATUAL
+
+                </h2>
+
+                <!-- Aguardando chamada -->
+
+                <div id="waitingState">
+
+                    <p id="waitingMessage">
+
+                        Aguardando chamada
+
+                    </p>
+
+                    <div id="waitingDots">
+
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+                <!-- Quando existir chamada -->
+
+                <div id="callState">
+
+                    <p id="senhaAtual"></p>
+
+                    <p id="nomePaciente"></p>
+
+                    <p id="setorAtual"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ============================================
+             PAINEL DIREITO
+        ============================================= -->
+
+        <aside id="rightPanel">
+
+            <h2>
+
+                ÚLTIMAS CHAMADAS
+
+            </h2>
+
+            <div id="lastCalls"></div>
+
+        </aside>
+
+    </main>
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer id="footer">
+
+        <p>
+
+            DIRIJA-SE AO SETOR INDICADO.
+
+        </p>
+
+        <img id="logoPrefeitura" src="../img/logo-prefeitura.png" alt="Logo da Prefeitura">
+
+    </footer>
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="./src/js/sistema.js"></script>
+    <script src="./src/js/status.js"></script>
+    <script src="./src/js/painel-publico.js"></script>
+
+</body>
+
+</html>
